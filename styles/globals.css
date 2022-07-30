@@ -1,0 +1,38 @@
+body{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.product{
+  background-color: #f1f1f1;
+  text-align: center;
+}
+
+a{
+  text-decoration: none;
+  font-size: 18px;
+  color: #198754;
+  padding: 10px 15px;
+  border-radius: 8px;
+  border: 1px solid #198754;
+}
+a:hover{
+  background-color: #198754;
+  color: #000;
+  
+}
+
+
+ul{
+  list-style: none;
+  padding-left: 0;
+}
+li{
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+span{
+  font-weight: bold;
+  color:#198754;
+  padding-left: 10px;
+}
