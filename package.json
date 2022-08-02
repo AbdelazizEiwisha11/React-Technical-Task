@@ -2,11 +2,16 @@
   "name": "next-app",
   "version": "0.1.0",
   "private": true,
+  "homepage":"https://AbdelazizEiwisha11.github.io/React-Technical-Task",
+
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "next start",
     "lint": "next lint"
+
   },
   "dependencies": {
     "bootstrap": "^5.2.0",
@@ -16,6 +21,7 @@
   },
   "devDependencies": {
     "eslint": "8.20.0",
-    "eslint-config-next": "12.2.3"
+    "eslint-config-next": "12.2.3",
+    "gh-pages": "^4.0.0"
   }
 }
